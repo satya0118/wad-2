@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+</head>
+<body>
+
+    <table border="1" width="100%" height="100%" cellspacing="10" cellpadding="10">
+        <!-- First Row: Logo and Header -->
+        <tr height="100">
+            <td width="25%" align="center" valign="middle">
+                <img src="sanfoundry.png" alt="Website Logo" height="80" width="120">
+            </td>
+            <td width="75%" align="center" valign="middle">
+                <h1>SANFOUNDARY</h1>
+            </td>
+        </tr>
+
+        <!-- Second Row: Menu Links -->
+        <tr height="50">
+            <td colspan="2" align="center" valign="middle">
+                <a href="home.html" target="contentFrame">Home</a> |
+                <a href="login.html" target="contentFrame">Login</a> |
+                <a href="registration.html" target="contentFrame">Registration</a> |
+                <a href="catalogue.html" target="contentFrame">Catalogue</a> |
+                <a href="cart.html" target="contentFrame">Cart</a> |
+                <a href="contact.html" target="contentFrame">Contact Us</a>
+            </td>
+        </tr>
+
+        <!-- Third Row: Sidebar and Content -->
+        <tr>
+            <!-- Sidebar Links -->
+            <td width="25%" valign="top">
+                <p><a href="service1.html" target="contentFrame">Premium Support</a></p>
+                <p><a href="service2.html" target="contentFrame">Premium Feature Support</a></p>
+                <p><a href="service3.html" target="contentFrame">Extended Warranty</a></p>
+                <p><a href="service4.html" target="contentFrame">VIP Support</a></p>
+            </td>
+           
+            <!-- Content Frame -->
+            <td width="75%" valign="top">
+     
+                <iframe name="contentFrame" width="100%" height="500" frameborder="1"></iframe>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
